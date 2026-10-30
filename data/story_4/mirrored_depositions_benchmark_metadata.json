@@ -1,0 +1,55 @@
+{
+  "title": "The Mirrored Depositions",
+  "target_word_count": 20000,
+  "actual_word_count": 20014,
+  "sample_count": 230,
+  "labels": {
+    "Cass Mirel": {
+      "expected_gender": "female",
+      "role": "junior advocate annotating a trial record"
+    },
+    "Bram Orison": {
+      "expected_gender": "male",
+      "role": "defendant who answers with fragments"
+    },
+    "Helia Voss": {
+      "expected_gender": "female",
+      "role": "senior judge with ceremonial phrasing"
+    },
+    "Ren Sable": {
+      "expected_gender": "male",
+      "role": "clerk who writes marginal corrections"
+    },
+    "Dalia Kerr": {
+      "expected_gender": "female",
+      "role": "witness whose letters are quoted inside testimony"
+    },
+    "Mikol Thane": {
+      "expected_gender": "male",
+      "role": "bailiff who remembers logistical details"
+    },
+    "Iva Pell": {
+      "expected_gender": "female",
+      "role": "archivist who disputes document order"
+    },
+    "Sorren Aft": {
+      "expected_gender": "male",
+      "role": "mirror-maker expert witness"
+    },
+    "narrator": {
+      "expected_gender": "unknown",
+      "role": "third-person frame narrator"
+    },
+    "court automaton": {
+      "expected_gender": "unknown",
+      "role": "institutional transcript voice"
+    }
+  },
+  "notes": [
+    "Story 4 is harder than story_3 through nested documents, quoted testimony, letters, marginal notes, and court transcript frames.",
+    "The row speaker is often different from the person discussed or quoted inside the paragraph.",
+    "Unknown rows use institutional court automaton excerpts.",
+    "Generated as a full fixture for the progressive difficulty ladder: nested legal archive with quoted testimony and document frames.",
+    "Story text is derived from the ordered JSONL text values separated by blank lines."
+  ]
+}

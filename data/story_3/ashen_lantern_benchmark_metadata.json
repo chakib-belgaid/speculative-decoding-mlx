@@ -1,0 +1,51 @@
+{
+  "title": "The Ashen Lantern",
+  "target_word_count": 20000,
+  "actual_word_count": 20065,
+  "sample_count": 345,
+  "labels": {
+    "Nima Darel": {
+      "expected_gender": "female",
+      "role": "apprentice illuminator, also called the Lamp Hand"
+    },
+    "Tovan Aric": {
+      "expected_gender": "male",
+      "role": "physician-monk, also called Brother Ash"
+    },
+    "Ysolde Fen": {
+      "expected_gender": "female",
+      "role": "bell keeper who speaks in clipped observations"
+    },
+    "Garron Vey": {
+      "expected_gender": "male",
+      "role": "courier who hides panic behind jokes"
+    },
+    "Savitri Morn": {
+      "expected_gender": "female",
+      "role": "visiting magistrate who asks formal questions"
+    },
+    "Kell Rusk": {
+      "expected_gender": "male",
+      "role": "monastery cook who repeats rumors as if they were recipes"
+    },
+    "Amaya Sol": {
+      "expected_gender": "female",
+      "role": "masked pilgrim using the aliases Mara-of-the-Stair and Liora Venn"
+    },
+    "narrator": {
+      "expected_gender": "unknown",
+      "role": "third-person narrator"
+    },
+    "monastery bell": {
+      "expected_gender": "unknown",
+      "role": "ritual bell inscriptions and tolling messages"
+    }
+  },
+  "notes": [
+    "Story 3 is harder than story_2 through aliases, titles, interruptions, reported speech, and group scenes.",
+    "Human speakers recur under names, offices, and relational address terms.",
+    "Unknown rows use bell inscriptions and tolling messages.",
+    "Generated as a full fixture for the progressive difficulty ladder: alias-heavy mountain monastery mystery.",
+    "Story text is derived from the ordered JSONL text values separated by blank lines."
+  ]
+}

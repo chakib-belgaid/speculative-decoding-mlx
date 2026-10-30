@@ -1,0 +1,22 @@
+config_key,config_label,config_sort,expected_gender,rows,unique_samples,accuracy
+large:qwen_large,Large only: Qwen3 4B,0,female,30,10,1.0
+large:qwen_large,Large only: Qwen3 4B,0,male,48,16,1.0
+large:qwen_large,Large only: Qwen3 4B,0,unknown,42,14,0.9285714285714286
+speculative:qwen_large+qwen_small,Speculative: Qwen3 4B + Qwen3 0.6B,1,female,10,10,1.0
+speculative:qwen_large+qwen_small,Speculative: Qwen3 4B + Qwen3 0.6B,1,male,16,16,1.0
+speculative:qwen_large+qwen_small,Speculative: Qwen3 4B + Qwen3 0.6B,1,unknown,14,14,0.9285714285714286
+large:llama_3_2_3b,Large only: Llama 3.2 3B,2,female,30,10,0.8
+large:llama_3_2_3b,Large only: Llama 3.2 3B,2,male,48,16,0.9375
+large:llama_3_2_3b,Large only: Llama 3.2 3B,2,unknown,42,14,0.14285714285714285
+speculative:llama_3_2_3b+smollm,Speculative: Llama 3.2 3B + SmolLM3 3B,3,female,10,10,0.8
+speculative:llama_3_2_3b+smollm,Speculative: Llama 3.2 3B + SmolLM3 3B,3,male,16,16,0.9375
+speculative:llama_3_2_3b+smollm,Speculative: Llama 3.2 3B + SmolLM3 3B,3,unknown,14,14,0.14285714285714285
+small:smollm,Small only: SmolLM3 3B,4,female,30,10,0.8
+small:smollm,Small only: SmolLM3 3B,4,male,48,16,0.625
+small:smollm,Small only: SmolLM3 3B,4,unknown,42,14,1.0
+small:qwen_small,Small only: Qwen3 0.6B,5,female,30,10,0.7
+small:qwen_small,Small only: Qwen3 0.6B,5,male,48,16,0.0
+small:qwen_small,Small only: Qwen3 0.6B,5,unknown,42,14,1.0
+small:gemma,Small only: FunctionGemma 270M,6,female,30,10,0.0
+small:gemma,Small only: FunctionGemma 270M,6,male,48,16,0.0
+small:gemma,Small only: FunctionGemma 270M,6,unknown,42,14,1.0

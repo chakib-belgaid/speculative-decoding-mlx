@@ -1,0 +1,31 @@
+{
+  "title": "The Glass Archive",
+  "target_word_count": 20000,
+  "actual_word_count": 20023,
+  "sample_count": 544,
+  "labels": {
+    "Mara Vale": {
+      "expected_gender": "female",
+      "role": "former archivist, methodical and guarded"
+    },
+    "Idris Noor": {
+      "expected_gender": "male",
+      "role": "street cartographer, improvisational and skeptical"
+    },
+    "Sera Kade": {
+      "expected_gender": "female",
+      "role": "signal engineer, blunt and analytical"
+    },
+    "narrator": {
+      "expected_gender": "unknown",
+      "role": "third-person narrator"
+    }
+  },
+  "notes": [
+    "Each JSONL row is a paragraph-like sample.",
+    "Dialogue paragraphs are labeled by the speaking character.",
+    "Narration is labeled speaker=narrator, expected_gender=unknown.",
+    "A small number of environmental/Archive voice lines are labeled speaker=unknown, expected_gender=unknown.",
+    "Designed for speaker attribution benchmarking over three recurring characters plus narrator."
+  ]
+}

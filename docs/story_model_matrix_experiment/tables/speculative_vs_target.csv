@@ -1,0 +1,3 @@
+target_family,draft_family,pair,samples,large_accuracy,spec_accuracy,prediction_match_rate,correctness_match_rate,large_avg_wall_ms,spec_avg_wall_ms,slowdown_vs_large,avg_draft_acceptance_ratio
+llama_3_2_3b,smollm,Llama 3.2 3B + SmolLM3 3B,40,0.625,0.625,1.0,1.0,1111.7170635749517,2138.4046686250713,0.9235151988659753,0.7731306870438021
+qwen_large,qwen_small,Qwen3 4B + Qwen3 0.6B,40,0.975,0.975,1.0,1.0,1246.919806250071,1599.371930324969,0.2826582129085322,0.7557672554420666

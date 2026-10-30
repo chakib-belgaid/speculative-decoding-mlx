@@ -1,0 +1,47 @@
+{
+  "title": "The Ciphered Tide",
+  "target_word_count": 20000,
+  "actual_word_count": 20068,
+  "sample_count": 233,
+  "labels": {
+    "Lena Marr": {
+      "expected_gender": "female",
+      "role": "harbor pilot who hides intelligence in tide charts"
+    },
+    "Jon Vale": {
+      "expected_gender": "male",
+      "role": "customs inspector who speaks carefully and asks leading questions"
+    },
+    "Priya Sen": {
+      "expected_gender": "female",
+      "role": "radio operator who interrupts with concise technical warnings"
+    },
+    "Oren Pike": {
+      "expected_gender": "male",
+      "role": "salvage diver with blunt practical phrasing"
+    },
+    "Marta Quill": {
+      "expected_gender": "female",
+      "role": "quartermaster who uses dry humor"
+    },
+    "Elias Rook": {
+      "expected_gender": "male",
+      "role": "exiled code clerk who evades direct answers"
+    },
+    "narrator": {
+      "expected_gender": "unknown",
+      "role": "third-person narrator"
+    },
+    "harbor loudspeaker": {
+      "expected_gender": "unknown",
+      "role": "automated port announcements"
+    }
+  },
+  "notes": [
+    "Story 2 is harder than story_1 through six recurring human speakers, denser dialogue, and mild attribution distractors.",
+    "Speaker cues remain mostly direct, but narration often names several characters before the row speaker talks.",
+    "Unknown rows use automated harbor announcements and signal notices.",
+    "Generated as a full fixture for the progressive difficulty ladder: direct maritime espionage with denser speaker traffic than story_1.",
+    "Story text is derived from the ordered JSONL text values separated by blank lines."
+  ]
+}

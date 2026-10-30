@@ -1,0 +1,36 @@
+config_key,config_label,config_sort,story_key,story_title,story_sort,accuracy,avg_wall_ms,parse_ok_rate,rows
+large:qwen_large,Large only: Qwen3 4B,0,story_1,The Glass Archive,1,0.875,1374.3944305415425,1.0,24
+large:qwen_large,Large only: Qwen3 4B,0,story_2,The Ciphered Tide,2,1.0,1178.0027084165947,1.0,24
+large:qwen_large,Large only: Qwen3 4B,0,story_3,The Ashen Lantern,3,1.0,1348.4509340001598,1.0,24
+large:qwen_large,Large only: Qwen3 4B,0,story_4,The Mirrored Depositions,4,1.0,1153.7124531668421,1.0,24
+large:qwen_large,Large only: Qwen3 4B,0,story_5,The Redacted Palace,5,1.0,1310.4573629167742,1.0,24
+speculative:qwen_large+qwen_small,Speculative: Qwen3 4B + Qwen3 0.6B,1,story_1,The Glass Archive,1,0.875,1579.1884742500315,1.0,8
+speculative:qwen_large+qwen_small,Speculative: Qwen3 4B + Qwen3 0.6B,1,story_2,The Ciphered Tide,2,1.0,1648.0633593748735,1.0,8
+speculative:qwen_large+qwen_small,Speculative: Qwen3 4B + Qwen3 0.6B,1,story_3,The Ashen Lantern,3,1.0,1571.7976771247777,1.0,8
+speculative:qwen_large+qwen_small,Speculative: Qwen3 4B + Qwen3 0.6B,1,story_4,The Mirrored Depositions,4,1.0,1562.1785728747,1.0,8
+speculative:qwen_large+qwen_small,Speculative: Qwen3 4B + Qwen3 0.6B,1,story_5,The Redacted Palace,5,1.0,1635.6315680004627,1.0,8
+large:llama_3_2_3b,Large only: Llama 3.2 3B,2,story_1,The Glass Archive,1,0.375,1062.6388524999584,1.0,24
+large:llama_3_2_3b,Large only: Llama 3.2 3B,2,story_2,The Ciphered Tide,2,0.75,1074.156189291595,1.0,24
+large:llama_3_2_3b,Large only: Llama 3.2 3B,2,story_3,The Ashen Lantern,3,0.625,1050.1666145830768,1.0,24
+large:llama_3_2_3b,Large only: Llama 3.2 3B,2,story_4,The Mirrored Depositions,4,0.625,1195.5775919585296,1.0,24
+large:llama_3_2_3b,Large only: Llama 3.2 3B,2,story_5,The Redacted Palace,5,0.75,1117.9762917914406,1.0,24
+speculative:llama_3_2_3b+smollm,Speculative: Llama 3.2 3B + SmolLM3 3B,3,story_1,The Glass Archive,1,0.375,2215.8972496247316,1.0,8
+speculative:llama_3_2_3b+smollm,Speculative: Llama 3.2 3B + SmolLM3 3B,3,story_2,The Ciphered Tide,2,0.75,2040.4831247503807,1.0,8
+speculative:llama_3_2_3b+smollm,Speculative: Llama 3.2 3B + SmolLM3 3B,3,story_3,The Ashen Lantern,3,0.625,2044.3727761248738,1.0,8
+speculative:llama_3_2_3b+smollm,Speculative: Llama 3.2 3B + SmolLM3 3B,3,story_4,The Mirrored Depositions,4,0.625,2307.2404845001984,1.0,8
+speculative:llama_3_2_3b+smollm,Speculative: Llama 3.2 3B + SmolLM3 3B,3,story_5,The Redacted Palace,5,0.75,2084.029708125172,1.0,8
+small:smollm,Small only: SmolLM3 3B,4,story_1,The Glass Archive,1,0.875,1127.4713298331942,1.0,24
+small:smollm,Small only: SmolLM3 3B,4,story_2,The Ciphered Tide,2,0.875,1082.1763871250216,1.0,24
+small:smollm,Small only: SmolLM3 3B,4,story_3,The Ashen Lantern,3,1.0,1054.3666684169086,1.0,24
+small:smollm,Small only: SmolLM3 3B,4,story_4,The Mirrored Depositions,4,0.25,1225.299243000033,1.0,24
+small:smollm,Small only: SmolLM3 3B,4,story_5,The Redacted Palace,5,1.0,1160.553331583363,1.0,24
+small:qwen_small,Small only: Qwen3 0.6B,5,story_1,The Glass Archive,1,0.75,456.00563712499326,1.0,24
+small:qwen_small,Small only: Qwen3 0.6B,5,story_2,The Ciphered Tide,2,0.375,475.35112845844196,1.0,24
+small:qwen_small,Small only: Qwen3 0.6B,5,story_3,The Ashen Lantern,3,0.5,441.0569427500377,1.0,24
+small:qwen_small,Small only: Qwen3 0.6B,5,story_4,The Mirrored Depositions,4,0.375,449.42876549991223,1.0,24
+small:qwen_small,Small only: Qwen3 0.6B,5,story_5,The Redacted Palace,5,0.625,474.30300162515476,1.0,24
+small:gemma,Small only: FunctionGemma 270M,6,story_1,The Glass Archive,1,0.625,1265.8426267916336,0.0,24
+small:gemma,Small only: FunctionGemma 270M,6,story_2,The Ciphered Tide,2,0.25,1252.8169773752325,0.125,24
+small:gemma,Small only: FunctionGemma 270M,6,story_3,The Ashen Lantern,3,0.375,1231.7122430833933,0.0,24
+small:gemma,Small only: FunctionGemma 270M,6,story_4,The Mirrored Depositions,4,0.25,1290.8671841667758,0.125,24
+small:gemma,Small only: FunctionGemma 270M,6,story_5,The Redacted Palace,5,0.25,1278.2699097916368,0.0,24

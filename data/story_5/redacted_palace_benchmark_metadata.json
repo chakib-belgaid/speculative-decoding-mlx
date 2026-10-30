@@ -1,0 +1,63 @@
+{
+  "title": "The Redacted Palace",
+  "target_word_count": 20000,
+  "actual_word_count": 20078,
+  "sample_count": 241,
+  "labels": {
+    "Aria Venn": {
+      "expected_gender": "female",
+      "role": "palace historian who revises her own account"
+    },
+    "Malek Dorn": {
+      "expected_gender": "male",
+      "role": "captain of keys who hides orders inside etiquette"
+    },
+    "Selene Io": {
+      "expected_gender": "female",
+      "role": "singer who can mimic other voices"
+    },
+    "Tarek Moul": {
+      "expected_gender": "male",
+      "role": "poison taster with literal phrasing"
+    },
+    "Vesper Linn": {
+      "expected_gender": "female",
+      "role": "redaction officer also called the Blue Censor"
+    },
+    "Nolan Crest": {
+      "expected_gender": "male",
+      "role": "prince's double using several titles"
+    },
+    "Rhea Sarn": {
+      "expected_gender": "female",
+      "role": "physician who contradicts official records"
+    },
+    "Omar Jett": {
+      "expected_gender": "male",
+      "role": "night gardener who overhears from vents"
+    },
+    "Livia Quen": {
+      "expected_gender": "female",
+      "role": "mathematician ambassador who speaks in proofs"
+    },
+    "narrator": {
+      "expected_gender": "unknown",
+      "role": "unreliable third-person narrator"
+    },
+    "palace intercom": {
+      "expected_gender": "unknown",
+      "role": "institutional announcements"
+    },
+    "unsigned marginalia": {
+      "expected_gender": "unknown",
+      "role": "unattributed notes in the palace record"
+    }
+  },
+  "notes": [
+    "Story 5 is the hardest fixture through redactions, unreliable narration, voice mimicry, secret titles, unknown voices, and frequent speaker switches.",
+    "Many rows quote or imitate a voice different from the row speaker.",
+    "Unknown rows include institutional announcements, unsigned marginalia, and intercepted whispers copied into the palace record.",
+    "Generated as a full fixture for the progressive difficulty ladder: unreliable palace inquest with redactions, mimicry, and unknown voices.",
+    "Story text is derived from the ordered JSONL text values separated by blank lines."
+  ]
+}
